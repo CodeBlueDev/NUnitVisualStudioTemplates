@@ -1,0 +1,21 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>NUnit Test.cs</DefaultName>
+    <Name>NUnit Test</Name>
+    <Description>An empty NUnit test class declaration.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.gif</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96D09A1EB7F44A77</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">UnitTest1.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
